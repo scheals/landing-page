@@ -14,6 +14,14 @@ ul {
     margin: 0;
     padding: 0;
 }
+.header,
+.entrance,
+.wall,
+.quote,
+.ticket-booth,
+.footer {
+    padding: 0 10%;
+}
 .enclosure {
     flex:1;
     display: flex;
@@ -118,4 +126,5 @@ button,
 }
 li {
     display: inline;
+    margin: 0 2px;
 }
