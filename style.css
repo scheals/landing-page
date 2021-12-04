@@ -85,7 +85,7 @@ ul {
     width: 300px;
 }
 .quote {
-    text-align: center;
+    text-align: justify;
     flex: 1;
     background-color: #E5E7EB;
     font-style: italic;
