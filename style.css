@@ -101,14 +101,18 @@ ul {
     font-style: normal;
 }
 .ticket-booth {
+    background: white;}
+.cashier {
     display: flex;
     flex: 1;
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
+    padding: 16px;
+    border-radius: 8px;
 }
 button, 
-.ticket-booth button {
+.cashier button {
     background-color: #3882F6;
     padding: 4px 16px;
     border-radius: 8px;
@@ -116,7 +120,7 @@ button,
     color: #F9FAF8;
     text-align: center;
 }
-.ticket-booth button {
+.cashier button {
     border-color: #F9FAF8;
 }
 .ticket {
