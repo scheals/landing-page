@@ -81,16 +81,14 @@ div.wall div.text {
 }
 .posters {
     display: flex;
-
-    justify-content: space-around;
-    gap: 8px;
+    justify-content: center;
+    gap: 16px;
     flex: 1;
 }
 .poster {
     font-size: 18px;
     font-weight: normal;
-    flex: 1;
-    width: 300px;
+    flex: 1 1 0;
 }
 p.poster {
     margin: 2px 0 0 0;
