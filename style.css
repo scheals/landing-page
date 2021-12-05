@@ -12,6 +12,9 @@ body {
     display: flex;
     flex: 1;
 }
+.section--noflexbox{
+    display: block;
+}
 .section--nogrow {
     flex: 0
 }
@@ -42,8 +45,11 @@ body {
 .section--white2 {
     background-color: #E5E7EB;
 }
+.section--blue {
+    background-color: #3882F6;
+}
 .section--round {
-    padding: 16px;
+    padding: 8px;
     border-radius: 8px;
 }
 .no-padding {
@@ -61,8 +67,11 @@ body {
 .inline {
     display: inline;
 }
+.lmargin-small {
+    margin-left: 4px;
+}
 .text {
-
+    margin: 4px 0;
 }
 .text--black {
     color: #1F2937
@@ -85,11 +94,28 @@ body {
 .text--subtext {
     font-size: 18px;
 }
+.text--small {
+    font-size: 12px;
+}
 .text--bold {
     font-weight: 800;
 }
 .text--quote {
     font-style: italic;
+    text-align: justify;
+}
+.text--center {
+    text-align: center;
+}
+.text--right {
+    text-align: right;
+}
+.text--source {
+    font-style: italic;
+}
+.text--author {
+    font-style: normal;
+    font-weight: 800;
 }
 .img {
     max-width: 100%;
