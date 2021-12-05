@@ -8,7 +8,6 @@ body {
     margin: 0;
 }
 .section {
-    padding: 24px 10%;
     display: flex;
     flex: 1;
 }
@@ -51,6 +50,9 @@ body {
 .section--round {
     padding: 8px;
     border-radius: 8px;
+}
+.section--spadding {
+    padding: 24px 10%;
 }
 .no-padding {
     padding: 0;
