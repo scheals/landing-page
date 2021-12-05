@@ -54,24 +54,6 @@ body {
 .section--spadding {
     padding: 24px 10%;
 }
-.no-padding {
-    padding: 0;
-}
-.no-margin {
-    margin: 0;
-}
-.no-lstyle {
-    list-style: none;
-}
-.no-dec {
-    text-decoration: none;
-}
-.inline {
-    display: inline;
-}
-.lmargin-small {
-    margin-left: 4px;
-}
 .text {
     margin: 4px 0;
 }
@@ -140,4 +122,25 @@ body {
 }
 .btn--bblue {
     border-color: #3882F6;
+}
+.no-padding {
+    padding: 0;
+}
+.no-margin {
+    margin: 0;
+}
+.no-lstyle {
+    list-style: none;
+}
+.no-dec {
+    text-decoration: none;
+}
+.inline {
+    display: inline;
+}
+.lmargin-small {
+    margin-left: 4px;
+}
+.bmargin-medium {
+    margin-bottom: 16px;
 }
