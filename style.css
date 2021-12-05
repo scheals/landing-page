@@ -17,7 +17,7 @@ body {
 .section--nogrow {
     flex: 0
 }
-.section__basis0 {
+.section--basis0 {
     flex: 1 1 0;
 }
 .section--column {
