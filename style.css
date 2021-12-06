@@ -14,25 +14,25 @@ body {
 .section--noflexbox{
     display: block;
 }
-.section--nogrow {
+.section--flexnogrow {
     flex: 0
 }
-.section--basis0 {
+.section--flexbasis0 {
     flex: 1 1 0;
 }
 .section--column {
     flex-direction: column;
 }
-.section--spbtw {
+.section--spacebetween {
     justify-content: space-between;
 }
-.section--spard {
+.section--spacearound {
     justify-content: space-around;
 }
-.section--jcenter {
+.section--justifycenter {
     justify-content: center;
 }
-.section--acenter {
+.section--aligncenter {
     align-items: center;
 }
 .section--gap16 {
@@ -51,7 +51,7 @@ body {
     padding: 8px;
     border-radius: 8px;
 }
-.section--spadding {
+.section--standardpadding {
     padding: 24px 10%;
 }
 .text {
@@ -104,7 +104,7 @@ body {
 .img {
     max-width: 100%;
 }
-.img--rborder {
+.img--roundedborder {
     border-radius: 4px;
 }
 .img--blueborder {
@@ -129,7 +129,7 @@ body {
 .no-margin {
     margin: 0;
 }
-.no-lstyle {
+.no-liststyle {
     list-style: none;
 }
 .no-dec {
